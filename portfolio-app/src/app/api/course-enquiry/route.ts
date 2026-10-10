@@ -42,13 +42,21 @@ export async function POST(request: Request) {
       console.warn('Could not save to inbox.json:', fsErr);
     }
 
-    const formspreeUrl = process.env.FORMSPREE_COURSE_URL || process.env.FORMSPREE_CONTACT_URL;
+    const formspreeUrl = process.env.FORMSPREE_COURSE_URL || process.env.FORMSPREE_CONTACT_URL || 'https://formspree.io/f/xkjobprb';
     if (formspreeUrl && formspreeUrl.startsWith('https://formspree.io/f/')) {
       try {
         await fetch(formspreeUrl, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-          body: JSON.stringify(data),
+          body: JSON.stringify({
+            name,
+            email,
+            _replyto: email,
+            _subject: `NeuralNest Course Enrollment Inquiry from ${name || 'Student'}`,
+            whatsapp,
+            experience,
+            message,
+          }),
         });
       } catch (err) {
         console.warn('Formspree forward error (non-fatal):', err);

@@ -41,14 +41,21 @@ export async function POST(request: Request) {
       console.warn('Could not save to inbox.json:', fsErr);
     }
 
-    // 3. Forward to Formspree if configured
-    const formspreeUrl = process.env.FORMSPREE_CONTACT_URL;
+    // 3. Forward to Formspree
+    const formspreeUrl = process.env.FORMSPREE_CONTACT_URL || 'https://formspree.io/f/xkjobprb';
     if (formspreeUrl && formspreeUrl.startsWith('https://formspree.io/f/')) {
       try {
         await fetch(formspreeUrl, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-          body: JSON.stringify({ name, email, service, message }),
+          body: JSON.stringify({
+            name,
+            email,
+            _replyto: email,
+            _subject: `New Portfolio Inquiry from ${name || 'Visitor'} (${service || 'General'})`,
+            service,
+            message,
+          }),
         });
       } catch (err) {
         console.warn('Formspree forward error (non-fatal):', err);
