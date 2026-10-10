@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "npm --prefix portfolio-app run dev",
-    "build": "npm --prefix portfolio-app run build",
+    "build": "npm --prefix portfolio-app run build && node -e \"const fs=require('fs'); fs.cpSync('portfolio-app/out', 'build', {recursive:true}); fs.cpSync('portfolio-app/out', 'out', {recursive:true});\"",
     "start": "npm --prefix portfolio-app run start"
   }
 }

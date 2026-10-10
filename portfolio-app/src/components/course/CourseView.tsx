@@ -48,16 +48,18 @@ export default function CourseView({ course }: CourseViewProps) {
     setErrorMessage('');
 
     try {
-      const res = await fetch('/api/course-enquiry', {
+      // Direct Formspree submission (works reliably across static exports, Render, Vercel, and local)
+      const res = await fetch('https://formspree.io/f/xkjobprb', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           Accept: 'application/json',
         },
         body: JSON.stringify({
-          subject: 'NeuralNest ML Course Enquiry',
           name: formData.name,
           email: formData.email,
+          _replyto: formData.email,
+          _subject: `NeuralNest Course Enrollment Inquiry from ${formData.name || 'Student'}`,
           whatsapp: formData.whatsapp,
           experience: formData.experience,
           message: formData.message,
@@ -65,8 +67,15 @@ export default function CourseView({ course }: CourseViewProps) {
       });
 
       if (!res.ok) {
-        throw new Error('Failed to submit enquiry');
+        throw new Error('Failed to submit enquiry via Formspree');
       }
+
+      // Also mirror to local API if running in dynamic mode
+      fetch('/api/course-enquiry', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(formData),
+      }).catch(() => {});
 
       setStatus('success');
       setFormData({
