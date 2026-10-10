@@ -1,0 +1,10 @@
+{
+  "name": "ezra-portfolio-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix portfolio-app run dev",
+    "build": "npm --prefix portfolio-app run build",
+    "start": "npm --prefix portfolio-app run start"
+  }
+}
