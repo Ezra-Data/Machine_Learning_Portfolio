@@ -1,0 +1,28 @@
+{
+  "name": "Ezra Ndinya Ogechi",
+  "tagline": "Data Scientist & ML Engineer",
+  "heroStatement": "I build practical machine learning models and mobile apps that solve real problems.",
+  "heroRoles": ["Data Scientist", "ML Engineer", "Instructor", "App Builder"],
+  "socials": {
+    "github": "https://github.com/Ezra-Data",
+    "linkedin": "https://www.linkedin.com/in/ezra-ogechi-1a615534a/",
+    "x": "https://x.com/OgechiEzra",
+    "tiktok": "https://www.tiktok.com/@codetointelligence4",
+    "reddit": "https://www.reddit.com/user/Ogechi_Ezra7054/",
+    "whatsapp": "https://wa.me/254738933046",
+    "email": "ogechiezranalyst@gmail.com",
+    "location": "Nyeri",
+    "analyticsUrl": "https://ezra-wl21.onrender.com/"
+  },
+  "contact": {
+    "email": "ogechiezranalyst@gmail.com",
+    "location": "Nyeri",
+    "timezone": "EAT (UTC+3)",
+    "replyTime": "I typically respond within 24 hours."
+  },
+  "meta": {
+    "siteUrl": "https://ezra-portfolio.onrender.com",
+    "ogImage": "/images/og-image.jpg",
+    "twitterHandle": "@OgechiEzra"
+  }
+}

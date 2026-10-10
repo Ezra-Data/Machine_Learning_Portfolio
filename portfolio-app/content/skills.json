@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Data",
+    "icon": "Database",
+    "skills": ["Excel", "Power BI", "SQL", "Pandas", "NumPy"]
+  },
+  {
+    "name": "Machine Learning",
+    "icon": "Brain",
+    "skills": ["Scikit-learn", "XGBoost", "TensorFlow", "Model Evaluation", "Feature Engineering"]
+  },
+  {
+    "name": "Deployment & Apps",
+    "icon": "Rocket",
+    "skills": ["Streamlit", "Flask", "FastAPI", "TensorFlow Lite", "Android"]
+  },
+  {
+    "name": "Other",
+    "icon": "GitBranch",
+    "skills": ["Git", "GitHub", "Python", "JavaScript"]
+  }
+]

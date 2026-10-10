@@ -1,0 +1,97 @@
+{
+  "title": "NeuralNest ML Course by Ezra Ndinya Ogechi",
+  "subtitle": "A welcoming home for learners exploring neural networks, AI, and machine learning",
+  "brandName": "NeuralNest",
+  "whoIsItFor": [
+    "Beginners and Form Four leavers starting in coding and data",
+    "Data analysts moving into machine learning and predictive models",
+    "Comrades and developers who want practical hands-on skills",
+    "Anyone preparing for practical data science and machine learning"
+  ],
+  "prerequisites": [
+    "A computer and curiosity to learn",
+    "Basic Python knowledge is helpful but beginners are welcome",
+    "No prior machine learning experience needed"
+  ],
+  "syllabus": [
+    {
+      "title": "1. Python Programming",
+      "topics": ["Python syntax and fundamentals", "Variables, data types, and operators", "Conditional statements and loops", "Functions, data structures, and file handling"]
+    },
+    {
+      "title": "2. Python Libraries for Data",
+      "topics": ["NumPy for arrays and numerical math", "Pandas for dataframes and data cleaning", "Matplotlib and Seaborn for data visualization", "Data exploration and aggregation workflows"]
+    },
+    {
+      "title": "3. Math for Machine Learning: Vectors, Calculus & Building from Scratch",
+      "topics": [
+        "Introduction to Vectors: What they are and their importance in AI features and embeddings",
+        "Matrices and operations: Storing datasets, matrix transformations, and dot products",
+        "Derivatives and gradients: How gradient descent optimizes model loss from scratch",
+        "Building models from scratch in pure NumPy: Loss functions, update rules, and backpropagation",
+        "Request dedicated 1 on 1 tutoring or custom mathematical deep dives anytime"
+      ]
+    },
+    {
+      "title": "4. Step 1: Define The Problem",
+      "topics": ["Framing business questions as ML tasks", "Classification vs regression vs clustering", "Success metrics and performance goals", "Project planning and requirements"]
+    },
+    {
+      "title": "5. Step 2: Data Collection",
+      "topics": ["Sourcing datasets from CSVs, databases, and APIs", "Data quality checks and initial inspection", "Handling noisy and messy inputs", "Organizing project data directories"]
+    },
+    {
+      "title": "6. Step 3: Exploratory Data Analysis (EDA)",
+      "topics": ["Statistical summaries and distributions", "Correlation analysis and heatmaps", "Identifying patterns and relationships", "Spotting anomalies and data leaks"]
+    },
+    {
+      "title": "7. Step 4: Data Preprocessing",
+      "topics": ["Handling missing values and nulls", "Detecting and treating outliers", "Encoding categorical variables", "Feature scaling and normalization"]
+    },
+    {
+      "title": "8. Step 5: Feature Engineering",
+      "topics": ["Creating informative new features", "Dimensionality reduction", "Feature importance selection", "Preventing train test contamination"]
+    },
+    {
+      "title": "9. Step 6: Model Selection",
+      "topics": ["Choosing the right algorithm for the task", "Linear models vs decision trees", "Ensemble methods (Random Forest, XGBoost)", "Baseline model establishment"]
+    },
+    {
+      "title": "10. Step 7: Model Training",
+      "topics": ["Train validation test split strategies", "Model training and convergence", "Hyperparameter tuning with grid search", "Preventing overfitting and underfitting"]
+    },
+    {
+      "title": "11. Step 8: Model Evaluation",
+      "topics": ["Accuracy, Precision, Recall, and F1-score", "Confusion matrix interpretation", "ROC-AUC curves and regression metrics (RMSE, MAE)", "Cross validation and model comparison"]
+    },
+    {
+      "title": "12. Step 9: Model Deployment",
+      "topics": ["Saving models with Pickle and Joblib", "Building REST APIs using FastAPI and Python", "Interactive web dashboards with Streamlit", "Serving live predictions"]
+    },
+    {
+      "title": "13. Step 10: Monitor and Maintain The Model",
+      "topics": ["Tracking model performance over time", "Detecting data drift and concept drift", "Retraining schedules and data updates", "Production troubleshooting"]
+    },
+    {
+      "title": "14. Hands on Portfolio Projects",
+      "topics": ["Credit card fraud detection project", "Customer churn prediction system", "Movie recommendation engine", "End to end capstone project for your portfolio"]
+    }
+  ],
+  "format": "Online 1 on 1 and cohort sessions with direct guidance",
+  "duration": "Self paced or 8 weeks guided",
+  "schedule": "Flexible scheduling with weekly Q&A sessions",
+  "price": "Hidden: Custom quoted and agreed directly in chat after communication",
+  "whatStudentsBuild": [
+    "A credit card fraud detection classifier",
+    "A customer churn prediction system",
+    "A content based movie recommendation engine",
+    "A deployed machine learning web application",
+    "A full capstone project for your personal portfolio"
+  ],
+  "instructor": {
+    "name": "Ezra Ndinya Ogechi",
+    "bio": "Data scientist and machine learning engineer who builds practical models and applications. Everything we teach comes from real world projects and practical engineering implementations.",
+    "image": "/images/Ezra.png"
+  },
+  "status": "open"
+}

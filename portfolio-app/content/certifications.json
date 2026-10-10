@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Chana: First Runner Up",
+    "issuer": "Dedan Kimathi University of Technology (DeKUT) Hackathon",
+    "date": "2026",
+    "type": "award",
+    "description": "Awarded First Runner Up for Chana, an intelligent campus chatbot and navigation system built with Team WAHENGA at DeKUT.",
+    "projectSlug": "chana",
+    "projectName": "Chana",
+    "team": "Team WAHENGA",
+    "role": "Team Member & ML Developer",
+    "githubUrl": "https://github.com/Ezra-Data/Chana",
+    "demoRequestUrl": "/contact?service=web"
+  },
+  {
+    "title": "Come Build with AI Hackathon (First Edition)",
+    "issuer": "GOMYCODE",
+    "date": "27 September 2026",
+    "type": "participation",
+    "description": "Certificate of Participation awarded to Ezra Ndinya Ogechi as a member of Team WAHENGA for project BIA at the Come Build with AI hackathon (Kenya / Online).",
+    "thumbnail": "/certificates/gomycode-cert.jpg",
+    "file": "/certificates/Come-Build-with-AI-Ezra-Ndinya-Ogechi.pdf",
+    "team": "Team WAHENGA",
+    "projectName": "BIA",
+    "verifyUrl": ""
+  },
+  {
+    "title": "Internet and Computing Core Certification",
+    "issuer": "St. Ann's College",
+    "date": "2023",
+    "type": "course",
+    "description": "Certificate in Internet and Computing Core, covering Computer Fundamentals, Office Applications, and Living Online.",
+    "thumbnail": "/certificates/st-anns-cert.jpg",
+    "file": "/certificates/ST_Ann's_College_Cert.pdf"
+  },
+  {
+    "title": "Secondary School Certificate (Computer Studies)",
+    "issuer": "Kisii School",
+    "date": "Secondary Education",
+    "type": "education",
+    "description": "Secondary school certificate covering Computer Studies and foundational sciences.",
+    "thumbnail": "/certificates/kisii-school-cert.jpg",
+    "file": "/certificates/Kisii_School_Computer_Studies_Cert.pdf"
+  }
+]
