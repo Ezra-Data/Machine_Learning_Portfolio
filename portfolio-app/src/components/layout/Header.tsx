@@ -183,7 +183,7 @@ export default function Header() {
                 </div>
                 <div style={{ fontSize: '0.75rem', color: 'var(--accent)', display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
                   <MapPin size={12} />
-                  <span>Nyeri (UTC+3)</span>
+                  <span>Nairobi (UTC+3)</span>
                 </div>
               </div>
             </div>

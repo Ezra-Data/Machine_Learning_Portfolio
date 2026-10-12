@@ -5,7 +5,7 @@ import AboutSection from '@/components/sections/AboutSection';
 export const metadata: Metadata = {
   title: 'About | Ezra Ndinya Ogechi',
   description:
-    'Learn about Ezra Ndinya Ogechi, a data scientist and machine learning engineer from Nyeri building practical models and mobile apps.',
+    'Learn about Ezra Ndinya Ogechi, a data scientist and machine learning engineer from Nairobi building practical models and mobile apps.',
 };
 
 export default async function AboutPage() {

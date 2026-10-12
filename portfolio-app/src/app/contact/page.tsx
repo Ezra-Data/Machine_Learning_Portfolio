@@ -142,7 +142,7 @@ export default function ContactPage() {
                   <MapPin size={20} style={{ color: 'var(--accent-2)', flexShrink: 0 }} />
                   <div>
                     <div style={{ fontSize: '0.75rem', color: 'var(--muted)', fontWeight: 600 }}>LOCATION & TIMEZONE</div>
-                    <div style={{ fontSize: '0.9375rem', fontWeight: 600, color: 'var(--text)' }}>Nyeri (EAT / UTC+3)</div>
+                    <div style={{ fontSize: '0.9375rem', fontWeight: 600, color: 'var(--text)' }}>Nairobi (EAT / UTC+3)</div>
                   </div>
                 </div>
 

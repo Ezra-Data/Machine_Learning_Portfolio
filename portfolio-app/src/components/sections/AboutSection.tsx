@@ -100,12 +100,12 @@ export default function AboutSection({ aboutHtml }: AboutSectionProps) {
                     Location
                   </div>
                   <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text)' }}>
-                    Nyeri <span style={{ fontWeight: 400, color: 'var(--text-secondary)' }}>(UTC+3)</span>
+                    Nairobi <span style={{ fontWeight: 400, color: 'var(--text-secondary)' }}>(UTC+3)</span>
                   </div>
                 </div>
               </div>
               <p style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', margin: 0 }}>
-                I am located in Nyeri and work with remote teams and clients worldwide.
+                I am located in Nairobi and work with remote teams and clients worldwide.
               </p>
             </div>
 
